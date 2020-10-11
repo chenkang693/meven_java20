@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="前程贷项目">
+    <listeners>
+        <listener class-name="com.ck.v3.listeners.ScreenShot2AllureListener"/>
+        <listener class-name="com.ck.v3.listeners.RetryListener"/>
+    </listeners>
+   <test name="登录">
+        <classes>
+            <class name="com.ck.v3.cases.LoginCase"/>
+        </classes>
+    </test>
+   <!-- <test name="投资">
+        <classes>
+            <class name="com.ck.v3.cases.AddLoanCase"/>
+            <class name="com.ck.v3.cases.InvestCase"/>
+        </classes>
+    </test>-->
+
+
+</suite>
